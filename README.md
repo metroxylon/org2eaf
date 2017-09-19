@@ -1,4 +1,4 @@
-# org2eaf (Work in progress...)
+# org2eaf (Work in progress, not safe ...)
 Python script for conversion of emacs org-mode files to ELAN .eaf XML.
 
 ## Introduction
@@ -16,6 +16,8 @@ This is a python script for converting org-mode files into .eaf XML
 which can be read by the [ELAN][] software developed by The Language
 Archive (MPI).
 
+Suggestions for improvement welcome!
+
 [org-mode]: http://orgmode.org/
 [ELAN]: https://tla.mpi.nl/tools/tla-tools/elan/
 
@@ -26,11 +28,11 @@ Archive (MPI).
 4) install the script `pip3 install --editable .`
 5) navigate to the example folder `cd example`
 6) make .eaf file from .org file `org2eaf QUAKE.org my-QUAKE.eaf`
-
-
 7) Open the eaf file in ELAN (if ELAN is already installed) `open my-QUAKE.eaf`
 
 ![Elan screenshot](./images/elan-screenshot.png)
+
+Remark: video coming (too big for github)
 
 # Technical stuff
 ## Structure of org-mode files
