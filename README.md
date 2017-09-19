@@ -3,19 +3,18 @@ Python script for conversion of emacs org-mode files to ELAN .eaf XML.
 
 ## Introduction
 This is a part of a playful attempt without master plan of keeping
-linguistic fieldwork data in [org-mode][] plain text. Why would anyone
-do this? Possible reasons are: 1) for not having to leave emacs for
-doing linguistics 2) for not having to buy Windows for installing FLEX
-3) for not getting lost in dropdown menus 4) for writing own functions
-for the things I want to do 5) for making direct links to the corpus
-from anywhere within emacs 6) for having the data in a human readable
-format which can be opened with any text editor on any operating
-system for ever :-)
+linguistic fieldwork data in [org-mode][] plain text. Why? Possible
+reasons are: 1) for not having to leave emacs for doing linguistics 2)
+for not having to buy Windows for installing FLEX 3) for not getting
+lost in dropdown menus 4) for writing own functions for the things I
+want to do 5) for making direct links to the corpus from anywhere
+within emacs 6) for having the data in a human readable format which
+can be opened with any text editor on any operating system for ever
+:-)
 
 The [ELAN][] software developed by The Language Archive (MPI) displays
-annotation data in the .eaf format (ELAN Annotation Format). This
-script converts org-mode files into .eaf XML which can be viewed in
-ELAN.
+annotation data in the .eaf format (ELAN Annotation Format). This is a python
+script for converting org-mode files into .eaf XML.
 
 [org-mode]: http://orgmode.org/
 [ELAN]: https://tla.mpi.nl/tools/tla-tools/elan/
@@ -31,7 +30,7 @@ ELAN.
 
 7) Open the eaf file in ELAN (if ELAN is already installed) `open my-QUAKE.eaf`
 
-![Elan screenshot](./images/elan-screenshot.png)
+![Elan screenshot](./images/elan-screenshot.png =250x)
 
 # Technical stuff
 ## Structure of org-mode files
@@ -52,7 +51,7 @@ XML is that there is an associated media file `:AUDIO:` or
 :LOCATION: Tezpur (location of recording)
 :DATE: 2014-11-23 (date of recording)
 :SPEAKER: P Raiju (speaker)
-:AUTHOR: Ismael Lieberherr ()
+:AUTHOR: metroxylon ()
 :END:
 ```
 
