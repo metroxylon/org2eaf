@@ -24,27 +24,12 @@ ELAN.
 1) Have Python3 and pip3 installed.
 2) Download the ‘subgrouping-kho-bwa’ directory from Github by clicking on the green button `Clone or download`, unzip (alternatively clone the directory)
 3) Open a terminal/shell and navigate to the folder (e.g. `cd ~/Downloads/org2eaf`)
-4) install the script
-``` bash
-pip3 install --editable .
-```
+4) install the script `pip3 install --editable .`
+5) navigate to the example folder `cd example`
+6) make .eaf file from .org file `org2eaf QUAKE.org my-QUAKE.eaf`
 
-5) navigate to the example folder
-```bash
-cd example
-```
 
-6) make .eaf file from .org file
-
-``` bash
-org2eaf QUAKE.org my-QUAKE.eaf
-```
-
-7) Open the eaf file in ELAN (if ELAN is already installed)
-
-``` bash
-open my-QUAKE.eaf
-```
+7) Open the eaf file in ELAN (if ELAN is already installed) `open my-QUAKE.eaf`
 
 ![Elan screenshot](./images/elan-screenshot.png)
 
