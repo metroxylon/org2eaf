@@ -1,17 +1,6 @@
 # org2eaf (Work in progress, not safe ...)
 Python script for conversion of emacs org-mode files to ELAN .eaf XML.
 
-## Introduction
-This is a part of a playful attempt without master plan of keeping
-linguistic fieldwork data in [org-mode][] plain text. Why? Possible
-reasons could be: 1) for not having to leave emacs for doing
-linguistics 2) for not having to buy Windows for installing FLEX 3)
-for not getting lost in dropdown menus 4) for writing own functions
-for the things I want to do 5) for making direct links to the corpus
-from anywhere within emacs 6) for having the data in a human readable
-format which can be opened with any text editor on any operating
-system for ever :-)
-
 This is a python script for converting org-mode files into .eaf XML
 which can be read by the [ELAN][] software developed by The Language
 Archive (MPI).
