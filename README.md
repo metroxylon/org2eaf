@@ -23,7 +23,7 @@ Suggestions for improvement welcome!
 
 # Minitutorial for converting the example file
 1) Have Python3 and pip3 installed.
-2) Download the ‘subgrouping-kho-bwa’ directory from Github by clicking on the green button `Clone or download`, unzip (alternatively clone the directory)
+2) Download the  directory from Github by clicking on the green button `Clone or download`, unzip (alternatively clone the directory)
 3) Open a terminal/shell and navigate to the folder (e.g. `cd ~/Downloads/org2eaf`)
 4) install the script `pip3 install --editable .`
 5) navigate to the example folder `cd example`
