@@ -129,12 +129,12 @@ there can be more than one.
 
 ## Tiers in the .eaf file
 For every speaker in a text there is a set of nine tiers:
-1) `ref@Speaker`
-2) `disslabel@Speaker`
-3) `tx@Speaker`
-4) `word@Speaker`
-5) `morph@Speaker`
-6) `gl@Speaker`
-7) `morph_id@Speaker`
-8) `ft@Speaker`
-9) `com@Speaker`
+1) `ref@Speaker` unique identifier of text segment
+2) `disslabel@Speaker` unique identifier of text segment in PhD dissertation
+3) `tx@Speaker` phonetic transcription
+4) `word@Speaker` words phonologically
+5) `morph@Speaker` morphemes
+6) `gl@Speaker` gloss
+7) `morph_id@Speaker` unique identifier in Bulu Puroik dictionary
+8) `ft@Speaker` free translation
+9) `com@Speaker` comments about the text segment
